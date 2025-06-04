@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowTextractToReadObjects",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "textract.amazonaws.com"
+      },
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Resource": "arn:aws:s3:::intellidoc-docs-dx1joi/*"
+    },
+    {
+      "Sid": "AllowTextractToGetBucketLocation",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "textract.amazonaws.com"
+      },
+      "Action": "s3:GetBucketLocation",
+      "Resource": "arn:aws:s3:::intellidoc-docs-dx1joi"
+    }
+  ]
+}

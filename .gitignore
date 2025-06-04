@@ -1,0 +1,42 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Lambda deployment packages
+*.zip
+
+# Environment files
+.env
+*.env
+
+# Base64 test data
+*.b64
+*.txt
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*.tfplan
+
+# AWS credential files (never store locally here, but just in case)
+.aws/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Mac metadata
+*.DS_Store
+
+# PDF test files
+*.pdf

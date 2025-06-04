@@ -18,7 +18,7 @@ This project is part of my AWS portfolio to demonstrate real infrastructure as c
 
 ## 🧱 Architecture
 
-![IntelliDoc Diagram](intellidoc-diagram.pdf)
+![IntelliDoc Diagram](intellidoc-diagram.png)
 
 > 💡 This diagram reflects the current optimized deployment (no VPC) with optional VPC secure variant described below.
 

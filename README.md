@@ -14,17 +14,15 @@ This project is part of my AWS portfolio to demonstrate real infrastructure as c
 ![S3](https://img.shields.io/badge/AWS-S3-red?logo=amazon-aws&logoColor=white)
 ![Textract](https://img.shields.io/badge/AWS-Textract-green?logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-blueviolet?logo=terraform)
----
+
 
 ## 🧱 Architecture
-
-📄 [View Architecture Diagram (PDF)](intellidoc-diagram.pdf)
 
 ![IntelliDoc Diagram](intellidoc-diagram.pdf)
 
 > 💡 This diagram reflects the current optimized deployment (no VPC) with optional VPC secure variant described below.
 
----
+
 ## 🚀 Features
 
 - 📄 Accepts base64 encoded PDFs via public HTTP endpoint

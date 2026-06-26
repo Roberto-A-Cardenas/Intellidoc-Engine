@@ -61,7 +61,7 @@ Intellidoc-Engine/
 ├── lambda/                        # Lambda source code and test files
 │   ├── base64.txt
 │   ├── lambda.zip
-│   ├── nlp_parser.py
+
 │   ├── ocr_processor.py
 │   ├── ocr_processor.zip
 │   ├── payload.json
